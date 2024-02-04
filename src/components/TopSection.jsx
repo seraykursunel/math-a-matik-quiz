@@ -1,5 +1,8 @@
 export default function TopSection({ submitted }) {
-    const classCondition =
+  if (typeof document !== 'undefined') {
+    console.log("document nesnesine güvenli bir şekilde erişim")
+  }
+  const classCondition =
       document.getElementsByClassName("name-input").length === 0;
     return (
       <div className="top-section">
