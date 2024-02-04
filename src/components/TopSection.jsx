@@ -1,9 +1,9 @@
 export default function TopSection({ submitted }) {
+  
   if (typeof document !== 'undefined') {
-    console.log("document nesnesine güvenli bir şekilde erişim")
-  }
   const classCondition =
       document.getElementsByClassName("name-input").length === 0;
+  }
     return (
       <div className="top-section">
         <h1 className={submitted && !classCondition ? "second-fade-in" : null}>
