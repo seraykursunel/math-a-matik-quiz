@@ -1,8 +1,7 @@
 export default function TopSection({ submitted }) {
-  
+  let classCondition = false;
   if (typeof document !== 'undefined') {
-  const classCondition =
-      document.getElementsByClassName("name-input").length === 0;
+  classCondition = document.getElementsByClassName("name-input").length === 0;
   }
     return (
       <div className="top-section">
