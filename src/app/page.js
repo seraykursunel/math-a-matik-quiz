@@ -183,22 +183,6 @@ export default function App() {
     }
   }
 
-  /* Challenge
-
-        Uygulamanın mevcut kullanıcı deneyimi kötü çünkü elementler olması gerektiği zaman görünmüyor veya kaybolmuyor; hepsi bir arada. Göreviniz bunu aşağıdaki şekilde iyileştirmek: 
-        
-            1. <h1> elementi yalnızca oyun başlamadan önce oluşturulmalıdır. Daha sonra işlenmemelidir. 
-               
-            2. ClassName "problem-container" ile <div> yalnızca oyun başladığında işlenmelidir. Ondan önce işlenmemelidir. 
-               
-            3. gamePlayButtons değişkeninde saklanan butonlar yalnızca oyun başlamışsa görüntülenmelidir. Aksi takdirde, bunlar oluşturulmamalı ve bunun yerine startButton değişkeninde saklanan buton görünmelidir.  
-            
-            4. answerStatus değişkeninde saklanan string sadece kullanıcı bir cevap gönderdiğinde görünmeli ve 2 saniye sonra kaybolmalıdır. 
-               
-        İpucu: Bu bileşenin üst seviyesinde herhangi bir yerde showStates() fonksiyonunu çağırabilir ve uygulamanın state'lerine ve kullanıcı etkileşime girdikçe nasıl değiştiklerine aşina olmak için uygulamayla oynayabilirsiniz. 
-               
-        Not: Görevi tamamlamak için *sadece* aşağıdaki return deyiminin içine küçük bir kod yazmanız gerekmektedir. Bu veya başka bir dosyada yazmanız gereken başka bir kod yok
-*/
 
   return (
     <div className="wrapper">
